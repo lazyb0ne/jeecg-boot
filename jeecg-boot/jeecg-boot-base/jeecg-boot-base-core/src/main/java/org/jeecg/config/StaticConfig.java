@@ -12,10 +12,10 @@ import org.springframework.stereotype.Component;
 public class StaticConfig {
 
     @Value("${jeecg.oss.accessKey}")
-    private String accessKeyId;
+    private String accessKeyId ;
 
     @Value("${jeecg.oss.secretKey}")
-    private String accessKeySecret;
+    private String accessKeySecret ;
 
     @Value(value = "${spring.mail.username}")
     private String emailFrom;

@@ -34,8 +34,8 @@ public class DySmsHelper {
     static final String domain = "dysmsapi.aliyuncs.com";
 
     // TODO 此处需要替换成开发者自己的AK(在阿里云访问控制台寻找)
-    static  String accessKeyId;
-    static  String accessKeySecret;
+    static  String accessKeyId = "LTAI4GBxur2yztGnjos5TGcc";
+    static  String accessKeySecret = "gFzR9dApEMY8on49t43f4w43CYMmBR";
 
     public static void setAccessKeyId(String accessKeyId) {
         DySmsHelper.accessKeyId = accessKeyId;
